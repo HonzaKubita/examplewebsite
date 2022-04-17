@@ -1,0 +1,23 @@
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: aquamarine;
+  font-family: 'Inconsolata', monospace;
+}
+img {
+  width: 50%;
+  height: auto;
+  animation: rotation 5s infinite linear;
+  margin: 90px;
+}
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg) rotate(0deg);
+  }
+  to {
+    transform: rotateY(359deg)  rotate(359deg);
+  }
+}
